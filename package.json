@@ -1,0 +1,29 @@
+{
+  "name": "how-to-work-unit-tests-in",
+  "version": "0.0.1",
+  "description": "unit test example for js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyGuns/how-to-work-unit-tests-in-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "unit",
+    "test",
+    "example"
+  ],
+  "author": "Sergey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergeyGuns/how-to-work-unit-tests-in-js/issues"
+  },
+  "homepage": "https://github.com/SergeyGuns/how-to-work-unit-tests-in-js#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
