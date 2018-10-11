@@ -19,6 +19,7 @@ const objParserToHtml = (data) => {
       typeof data[key][0] === "string" ? newArray.push(data[key][0]) : data[key].map((el,index)=>{return newArray.push(objParserToHtml(el));})
     }
   })
+  console.log('test');
   newArray.push(`</${data.tag}>`);
   return Array.prototype.concat.apply([], newArray).join('');
 }
